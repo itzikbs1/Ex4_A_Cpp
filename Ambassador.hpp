@@ -1,5 +1,4 @@
 #include <iostream>
-// #include "Game.hpp"
 #include "Player.hpp"
 
 using namespace std;
@@ -11,6 +10,7 @@ class Ambassador : public Player{
         Game _game;
     public:
         Ambassador();
+        Ambassador(Game game, string &name);
         Ambassador(Game game, string name);
         void transfer(Player player1, Player player2);
 };

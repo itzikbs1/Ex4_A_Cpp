@@ -1,6 +1,5 @@
 #include <iostream>
 #include <iostream>
-// #include "Game.hpp"
 #include "Player.hpp"
 
 using namespace std;
@@ -12,6 +11,7 @@ class Contessa : public Player{
         Game _game;
     public:
         Contessa();
+        Contessa(Game game, string &name);
         Contessa(Game game, string name);
 
 };

@@ -11,9 +11,9 @@ class Game{
 
     public:
         Game();
-        string turn();
-        vector<string> players();
-        string winner(Game game);
+        static string turn();
+        static vector<string> players();
+        static string winner(Game game);
         // string role();
         // int coins();
         // friend std::ostream& operator<<(ostream& os,const Player &player);

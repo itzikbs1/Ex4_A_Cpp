@@ -16,8 +16,8 @@ class Player{
         // void turn();
         // string players(Game game);
         // string winner(Game game);
-        string role();
-        int coins();
+        static string role();
+        static int coins();
 
         void block(Player player);
         friend std::ostream& operator<<(ostream& os,const Player &player);

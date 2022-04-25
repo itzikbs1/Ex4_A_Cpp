@@ -1,6 +1,5 @@
 #include <iostream>
 #include <iostream>
-// #include "Game.hpp"
 #include "Player.hpp"
 
 using namespace std;
@@ -12,6 +11,7 @@ class Assassin : public Player{
         Game _game;
     public:
         Assassin();
+        Assassin(Game game, string &name);
         Assassin(Game game, string name);
 
 };

@@ -1,4 +1,5 @@
 #include "Player.hpp"
+#include "Game.hpp"
 #include "Duke.hpp"
 #include "Assassin.hpp"
 #include "Ambassador.hpp"
@@ -29,6 +30,8 @@ using namespace std;
 
 
     TEST_CASE("Good input"){
+        vector<string> players = game_1.players();
+        CHECK(players.size() == 5);
         CHECK(game_1.turn() == "Moshe");
         duke.income();
         CHECK(game_1.turn() == "Yossi");
@@ -62,4 +65,5 @@ using namespace std;
         CHECK_THROWS(ambassador.foreign_aid());
         CHECK_THROWS(captain.income());
         CHECK_THROWS(contessa.foreign_aid());
+        CHECK_THROWS(assassin.foreign_aid());
     }

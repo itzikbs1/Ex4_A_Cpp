@@ -1,5 +1,4 @@
 #include <iostream>
-// #include "Game.hpp"
 #include "Player.hpp"
 
 using namespace std;
@@ -11,6 +10,7 @@ class Duke : public Player{
         Game _game;
     public:
         Duke();
+        Duke(Game game, string &name);
         Duke(Game game, string name);
         void block(Player player);
         void tax();
