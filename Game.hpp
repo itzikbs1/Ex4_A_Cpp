@@ -14,8 +14,8 @@ class Game{
         string turn();
         vector<string> players();
         string winner(Game game);
-        string role();
-        int coins();
+        // string role();
+        // int coins();
         // friend std::ostream& operator<<(ostream& os,const Player &player);
 
 };

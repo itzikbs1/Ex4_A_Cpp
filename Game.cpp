@@ -21,9 +21,9 @@ Game::Game(){
     //     return os;
     // }
 
-    // string Game::winner(Game game){
-    //     return "";
-    // }
+    string Game::winner(Game game){
+        return "";
+    }
     // string Game::role(){
     //     return "";
     // }

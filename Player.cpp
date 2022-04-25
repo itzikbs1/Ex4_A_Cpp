@@ -11,17 +11,17 @@ using namespace coup;
 
     // }
     void Player::income(){
-        return;
+        // return;
     }
     void Player::foreign_aid(){
-        return;
+        // return;
     }
     void Player::coup(Player player){
-        return;
+        // return;
     }
-    string Player::winner(Game game){
-        return "";
-    }
+    // string Player::winner(Game game){
+    //     return "";
+    // }
     string Player::role(){
         return "";
     }

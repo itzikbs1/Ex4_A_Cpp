@@ -15,7 +15,7 @@ class Player{
         void coup(Player player);
         // void turn();
         // string players(Game game);
-        string winner(Game game);
+        // string winner(Game game);
         string role();
         int coins();
 
