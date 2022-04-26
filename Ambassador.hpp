@@ -6,12 +6,14 @@ namespace coup{
 class Ambassador : public Player{
 
     private:
-        string _name;
-        Game _game;
+        // string _name;
+        // Game _game;
     public:
-        Ambassador();
-        Ambassador(Game game, string &name);
-        Ambassador(Game game, string name);
+        // Player::Player
+        // Ambassador();
+        // Ambassador(Game game, string &name);
+        Ambassador(Game game, string name) : Player(game, name){}
         void transfer(Player player1, Player player2);
+        void block(Player player);
 };
 }

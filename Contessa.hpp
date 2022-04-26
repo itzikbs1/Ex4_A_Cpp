@@ -7,12 +7,13 @@ namespace coup{
 class Contessa : public Player{
 
     private:
-        string _name;
-        Game _game;
+        // string _name;
+        // Game _game;
     public:
-        Contessa();
-        Contessa(Game game, string &name);
-        Contessa(Game game, string name);
+        // Contessa();
+        // Contessa(Game game, string &name);
+        Contessa(Game game, string name) : Player(game, name){}
+        void block(Player const &player);
 
 };
 }

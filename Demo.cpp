@@ -4,13 +4,14 @@
  * @author: Tal Zichlinsky
  * @since: 2022-02
  */
-// #include "Game.hpp"
+
 #include "Player.hpp"
 #include "Duke.hpp"
 #include "Assassin.hpp"
 #include "Ambassador.hpp"
 #include "Captain.hpp"
 #include "Contessa.hpp"
+#include "Game.hpp"
 
 using namespace coup;
 
@@ -107,6 +108,7 @@ int main() {
 	players = game_1.players();
 	/*
 		prints:
+		Moshe
 		Yossi
 		Meirav
 		Reut

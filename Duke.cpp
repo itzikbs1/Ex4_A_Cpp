@@ -15,11 +15,11 @@ using namespace coup;
     //     Duke::_name = name;
     //     Duke::_game = game;
     // }
-    Duke::Duke(Game game, string name){
-        Duke::_name = move(name);
-        Duke::_game = game;
-    }
-    void Duke::block(Player player){
+    // Duke::Duke(Game game, string name){
+    //     Duke::_name = move(name);
+    //     Duke::_game = game;
+    // }
+    void Duke::block(Player const &player){
 
     }
     void Duke::tax(){

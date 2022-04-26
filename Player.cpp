@@ -10,13 +10,17 @@ using namespace coup;
     // void coup::Player::income(){
 
     // }
+    // Player::Player(Game game, string name){
+    //     Player::_game = game;
+    //     Player::_name = name;
+    // }
     void Player::income(){
         // return;
     }
     void Player::foreign_aid(){
         // return;
     }
-    void Player::coup(Player player){
+    void Player::coup(Player const &player){
         // return;
     }
     // string Player::winner(Game game){
@@ -28,9 +32,9 @@ using namespace coup;
     int Player::coins(){
         return 0;
     }
-    void Player::block(Player player){
+    // void Player::block(Player const &player){
         
-    }
+    // }
     ostream& operator<<(ostream& os,const Player &player){
         return os;
     }

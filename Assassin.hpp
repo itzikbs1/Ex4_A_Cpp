@@ -7,12 +7,12 @@ namespace coup{
 class Assassin : public Player{
 
     private:
-        string _name;
-        Game _game;
+        // string _name;
+        // Game _game;
     public:
-        Assassin();
-        Assassin(Game game, string &name);
-        Assassin(Game game, string name);
-
+        // Assassin();
+        // Assassin(Game game, string &name);
+        Assassin(Game game, string name) : Player(game, name){}
+        void coup(Player const &player);
 };
 }

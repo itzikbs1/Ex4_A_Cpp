@@ -6,13 +6,13 @@ namespace coup{
 class Duke : public Player{
 
     private:
-        string _name;
-        Game _game;
+        // string _name;
+        // Game _game;
     public:
-        Duke();
-        Duke(Game game, string &name);
-        Duke(Game game, string name);
-        void block(Player player);
+        // Duke();
+        // Duke(Game game, string &name);
+        Duke(Game game, string name) : Player(game, name){}
+        void block(Player const &player);
         void tax();
 };
 }
