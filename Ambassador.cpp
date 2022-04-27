@@ -12,6 +12,6 @@ using namespace coup;
     //     Ambassador::_game = game;
     // }
     
-    void Ambassador::transfer(Player player1, Player player2){
+    void Ambassador::transfer(Player const &player1, Player const &player2){
 
     }

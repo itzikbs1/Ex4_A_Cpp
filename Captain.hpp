@@ -14,6 +14,6 @@ class Captain : public Player{
         // Captain(Game game, string &name);
         Captain(Game game, string name) : Player(game, name){}
         void block(Player const &player);
-        void steal(Player player);
+        void steal(Player const &player);
 };
 }

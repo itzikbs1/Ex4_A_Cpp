@@ -14,6 +14,6 @@ using namespace coup;
     void Captain::block(Player const &player){
 
     }
-    void Captain::steal(Player player){
+    void Captain::steal(Player const &player){
         
     }
