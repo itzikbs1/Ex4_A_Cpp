@@ -7,11 +7,9 @@
 using namespace std;
 using namespace coup;
 
-    // Ambassador::Ambassador(Game game, string name){
-    //     Ambassador::_name = move(name);
-    //     Ambassador::_game = game;
-    // }
-    
     void Ambassador::transfer(Player const &player1, Player const &player2){
+
+    }
+    void Ambassador::block(Player &player){
 
     }

@@ -13,19 +13,12 @@ class Player{
         string player_role;
 
     public:
-        // Player();
         Player(Game game, string name) : _game(game), _name(name){}
         void income();
         void foreign_aid();
         void coup(Player const &player);
-        // void turn();
-        // string players(Game game);
-        // string winner(Game game);
         static string role();
         static int coins();
-
-        // void block(Player const &player);
         friend std::ostream& operator<<(ostream& os,const Player &player);
-        // friend std::istream& operator>>(istream& in, Player &player);
 };
 }
